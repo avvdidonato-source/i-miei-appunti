@@ -1,0 +1,37 @@
+I MIEI APPUNTI — versione iniziale
+
+CONTENUTO
+- index.html: interfaccia
+- app.js: appunti, dettatura e lettura vocale
+- manifest.webmanifest: installazione come app
+- service-worker.js: apertura offline dopo il primo caricamento
+- icon.svg: icona
+
+COME PROVARLA
+1. Estrai tutti i file mantenendo la stessa cartella.
+2. Per installarla come PWA deve essere pubblicata su un indirizzo HTTPS.
+   Si può usare gratuitamente GitHub Pages.
+3. Apri il sito con Safari su iPhone/iPad.
+4. Premi Condividi > Aggiungi alla schermata Home.
+5. Apri l'icona dalla schermata Home.
+
+NOTA IMPORTANTE SULLA DETTATURA
+Il riconoscimento vocale del browser non è disponibile in tutti i browser/dispositivi.
+Su iPhone/iPad, se il pulsante DETTA non è supportato da Safari, tocca il campo di testo
+e usa il microfono della tastiera iOS. La lettura ad alta voce usa la voce italiana
+disponibile sul dispositivo.
+
+PRIVACY E SALVATAGGIO
+Gli appunti sono salvati localmente nel browser (localStorage), non vengono caricati
+su un server. Non cancellare i dati del sito/browser: potresti perdere gli appunti.
+Questa versione non sincronizza gli appunti tra dispositivi e non crea backup.
+
+ACCESSIBILITÀ
+- contrasto nero/giallo e testo bianco
+- pulsanti grandi
+- controlli A+ e A-
+- lettura del singolo appunto e lettura di tutti gli appunti
+
+Questa è una base funzionante da provare con la persona che la userà; prima dell'uso
+quotidiano è importante verificare dimensioni, voce, dettatura e facilità dei comandi
+sul suo specifico telefono.
